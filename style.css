@@ -18,12 +18,12 @@ body{
 .content{
     height: 200px;
     background-color: yellow;
-    
+
 }
 
 .quote{
     background-color: #e5e7eb;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .call-to-action{
@@ -99,4 +99,46 @@ button{
     border-radius: 10px;
     font-size: 18px;
     border-style: none;
+}
+
+
+.section-1{
+    text-align: center;
+}
+
+
+.section-2 {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mini-box-container{
+    border: #3882f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100px;
+}
+
+.mini-image{
+    height: 100px;
+    width: 100px;
+
+    flex: 0 0 auto;
+    border-radius: 8px;
+    border-style: solid;
+  
+}
+
+.mini-image-text{
+    justify-content: end;
+}
+
+.img-text{
+    flex:auto
 }
