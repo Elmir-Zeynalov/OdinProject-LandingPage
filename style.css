@@ -25,12 +25,6 @@ body{
     /* height: 200px; */
 }
 
-.call-to-action{
-   
-    height: 100px;
-}
-
-
 .meny-bar{
     display: flex;
     
@@ -151,7 +145,7 @@ button{
 .quote-area{
     display: flex;
     justify-content: center;
-    margin: 10%;
+    margin: 5%;
     
 }
 
@@ -166,6 +160,9 @@ button{
     text-align: end;
 }
 
+.call-to-action{
+    margin:auto;
+}
 
 .call-to-action-text{
     color: white;
@@ -187,9 +184,6 @@ button{
     flex: 2;
 }
 
-.call-to-action{
-    margin: 100px;
-}
 
 .button-line{
     display: flex;
@@ -210,3 +204,10 @@ button{
 }
 
 
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
