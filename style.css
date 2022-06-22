@@ -92,7 +92,7 @@ body{
 }
 
 button{
-    margin-top: 15px;
+    
     width: 120px;
     height: 35px;
     border-radius: 10px;
@@ -168,18 +168,45 @@ button{
 
 
 .call-to-action-text{
-    color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .call-to-action-area{
     display: flex;
-    justify-content: center;
     background-color: #3882f6 ;
     margin: 50px;
     border-radius:8px;
-    gap: 50px
+    gap: 50px;
+    justify-content: space-between;
 }
 
 .text{
     padding: 40px;
+    flex: 2;
 }
+
+.call-to-action{
+    margin: 100px;
+}
+
+.button-line{
+    display: flex;
+    gap: 50px
+}
+
+.button-line div{
+    color: white;
+    font-style: oblique;
+}
+
+.button-div{
+    margin: auto;
+    flex: 1 1;
+}
+.buttons{
+    border: solid;
+}
+
+
