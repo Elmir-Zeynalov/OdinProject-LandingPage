@@ -16,9 +16,8 @@ body{
 }
 
 .content{
-    height: 200px;
     background-color: yellow;
-
+   padding: 10px;
 }
 
 .quote{
@@ -141,4 +140,23 @@ button{
 
 .img-text{
     flex:auto
+}
+
+.main-quote{
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+
+.quote-area{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-text{
+    max-width: 350px;
+}
+
+.auth{
+    text-align: end;
 }
