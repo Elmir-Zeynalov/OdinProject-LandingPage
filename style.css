@@ -26,7 +26,7 @@ body{
 }
 
 .call-to-action{
-    background-color: #1f2937;
+   
     height: 100px;
 }
 
@@ -151,12 +151,35 @@ button{
 .quote-area{
     display: flex;
     justify-content: center;
+    margin: 10%;
+    
 }
 
 .quote-text{
-    max-width: 350px;
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .auth{
     text-align: end;
+}
+
+
+.call-to-action-text{
+    color: black;
+}
+
+.call-to-action-area{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6 ;
+    margin: 50px;
+    border-radius:8px;
+    gap: 50px
+}
+
+.text{
+    padding: 40px;
 }
